@@ -1,0 +1,24 @@
+# Основные библиотеки для RAG системы
+
+# Streamlit - веб-интерфейс
+streamlit>=1.28.0
+
+# Обработка документов
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Векторная БД (встроенная, без отдельного сервера)
+chromadb>=0.4.0
+
+# Эмбеддинги
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# LangChain
+langchain-core>=0.1.0
+pydantic>=2.0.0
+
+# HTTP запросы (для Groq / OpenAI / Ollama API)
+requests>=2.31.0

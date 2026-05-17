@@ -1,0 +1,27 @@
+chroma_db/
+temp_extracted/
+__pycache__/
+*.pyc
+.env
+.claude/
+.streamlit/secrets.toml
+
+# Фото и старые инструкции
+*.jpg
+*.jpeg
+*.png
+photo_*.jpg
+
+# Старые скрипты запуска (для облака не нужны)
+start.bat
+start.ps1
+start.sh
+установить_библиотеки.bat
+
+# Старые инструкции по Qdrant
+БЫСТРАЯ_УСТАНОВКА_QDRANT.txt
+ЗАПУСК_ПРИЛОЖЕНИЯ.txt
+КАК_ЗАПУСТИТЬ.txt
+НАСТРОЙКА_OLLAMA.txt
+РЕШЕНИЕ_ПРОБЛЕМЫ_QDRANT.txt
+УСТАНОВКА_QDRANT_БЕЗ_DOCKER.md
