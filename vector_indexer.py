@@ -4,6 +4,7 @@ ChromaDB работает встроенно — никакого отдельн
 """
 
 import os
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
 import time
 import uuid
 import numpy as np
